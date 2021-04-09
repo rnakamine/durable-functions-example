@@ -15,7 +15,7 @@ Function Runtime Version: 3.0.14916.0
 
 Functions:
 
-        c: [POST,GET] http://localhost:7071/api/orchestrators/{functionName}
+        [POST,GET] http://localhost:7071/api/orchestrators/{functionName}
 
         ActivitySample: activityTrigger
 
