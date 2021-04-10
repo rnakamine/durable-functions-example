@@ -1,6 +1,8 @@
 # durable-functions-example
 This repository is for practicing durable functions for python.
 
+[Create your first durable function in Azure using Python \| Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-functions/durable/quickstart-python-vscode)
+
 ## How to run
 
 Start Azure Functions
