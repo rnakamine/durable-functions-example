@@ -5,6 +5,25 @@ This repository is for practicing durable functions for python.
 
 ## How to run
 
+Create Azure Storage Account
+```sh
+$ cd terraform
+$ terraform init
+$ terraform plan
+$ terraform apply
+```
+
+Added connection string to local.settings.json
+```json
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "<myconnectionstring>"
+  }
+}
+```
+
 Start Azure Functions
 ```sh
 $ func start
